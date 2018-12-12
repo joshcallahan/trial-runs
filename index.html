@@ -13,108 +13,122 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body id="index">
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> SandBOX</a>
-      </div>
+      <a class="navbar-brand" href="#">
+        <span>
+          <i class="fas fa-umbrella-beach"></i>
+        </span> SandBox</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
   
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">About</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
           </li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Contact</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resume <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume
+              <i class="fas fa-download"></i>
+            </a>
           </li>
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container -->
-  </nav>
-  <div class="container">
-    <div class="jumbotron">
-      <h1><i class="fas fa-camera-retro"></i> Trials Sandbox</h1>
-      <p>Testing what I learn and building something</p>
+      </div>
     </div>
-
-    <div class="row flex">
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/toa-heftiba-1204171-unsplash.jpg" alt="">
-        </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid index-jumbo">
+    <div class="container">
+      <div class="jumbo-text">
+        <h1>
+          <i class="fas fa-camera-retro"></i> Trials Sandbox</h1>
+        <p>Testing what I learn and building something</p>
+        <a href="" class="btn btn-primary">See more</a>
+        <a href="" class="btn btn-success">Get in contact</a>
       </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/toa-heftiba-1204263-unsplash.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/charl-van-rooy-1201749-unsplash.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/emile-guillemot-1205598-unsplash.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/mike-yukhtenko-1204179-unsplash.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/carlo-knell-1204444-unsplash.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/toa-heftiba-1203912-unsplash.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/charl-van-rooy-1201748-unsplash.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="thumbnail">
-          <img src="assets/images/sergio-souza-1205634-unsplash.jpg" alt="">
-        </div>
-      </div>
-      
     </div>
   </div>
+  
+  <section id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="assets/images/toa-heftiba-1204171-unsplash.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">First Thing</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, hic eaque? Quisquam fugiat error quas, vel optio aliquam voluptatum nobis!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img src="assets/images/toa-heftiba-1204263-unsplash.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img src="assets/images/charl-van-rooy-1201749-unsplash.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img src="assets/images/emile-guillemot-1205598-unsplash.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img src="assets/images/mike-yukhtenko-1204179-unsplash.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <img src="assets/images/carlo-knell-1204444-unsplash.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <img src="assets/images/toa-heftiba-1203912-unsplash.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <img src="assets/images/charl-van-rooy-1201748-unsplash.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <img src="assets/images/sergio-souza-1205634-unsplash.jpg" alt="">
+          </div>
+        </div>
+    
+      </div>
+    </div>
+  </section>
+  
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
