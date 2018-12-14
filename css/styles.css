@@ -11,7 +11,7 @@ h1 {
   font-size: 4em;
 }
 
-.navbar-dark {
+#index .navbar-dark {
   background-color: #2c3e50;
 }
 
@@ -74,4 +74,59 @@ h1 {
 
 hr {
   width: 90%;
+}
+
+
+/******************
+  Christmas Page
+******************/
+
+#christmas {
+  background-color: #f8b229;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #bb2528;
+}
+
+#mainNavbar .navbar-brand {
+  color: #bb2528;
+  font-size: 1.5rem;
+}
+
+#headingGroup span {
+  color: #bb2528;
+}
+
+#headingGroup h1 {
+  font-size: 5rem;
+}
+
+@media (max-width: 1300px) {
+  #headingGroup h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.christmas-h2 {
+  color: #bb2528;
+}
+
+.christmas-p {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
 }
