@@ -111,11 +111,6 @@ hr {
   font-size: 5rem;
 }
 
-@media (max-width: 1300px) {
-  #headingGroup h1 {
-    font-size: 3.5rem;
-  }
-}
 
 .christmas-h2 {
   color: #bb2528;
@@ -129,4 +124,15 @@ hr {
 
 .content {
   margin-top: 100px;
+}
+
+.navbar.scrolled {
+  background: #146b3a;
+  transition: 500ms;
+}
+
+@media (max-width: 1300px) {
+  #headingGroup h1 {
+    font-size: 3.5rem;
+  }
 }
